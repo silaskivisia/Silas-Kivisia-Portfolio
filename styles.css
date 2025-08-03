@@ -1,0 +1,152 @@
+/* General Page Styling */
+body {
+  background-color: #d0eaff;
+  font-family: Arial, sans-serif;
+  color: #222;
+  margin: 20px;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h4, h5, h6 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: red;
+  font-size: 36px;
+}
+
+h2 {
+  color: navy;
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+/* Image Styling */
+img {
+  float: right;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Navigation Links */
+li {
+  list-style: none;
+  text-align: center;
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0a3d62;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Fieldset Styling */
+fieldset {
+  border: 2px solid #444;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #ffffffdd;
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: bold;
+  color: #444;
+}
+
+/* Paragraphs */
+p {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Education Section */
+.education {
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  margin: 10px auto;
+  max-width: 700px;
+}
+
+/* Interests */
+#interests p {
+  margin-bottom: 10px;
+}
+
+/* Projects Section */
+ul {
+  max-width: 800px;
+  margin: auto;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border-left: 4px solid #0097a7;
+}
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e6f2ff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;
+}
